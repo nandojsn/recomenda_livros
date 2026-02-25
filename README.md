@@ -1,4 +1,7 @@
-# 📚 Sistema de Recomendação de Livros: Filtros de Alta Relevância
+
+
+# 📚 Sistema de Recomendação de Livros: Filtros de Alta Relevância![recording-ezgif com-optimize](https://github.com/user-attachments/assets/0d84baff-1616-4233-95ec-e846fd84f38a)
+
 
 Este projeto foi desenvolvido como parte da minha migração de carreira da área educacional para a **Ciência de Dados**. O objetivo foi construir um motor de recomendação que une Processamento de Linguagem Natural (NLP) e rigor estatístico para sugerir leituras de alta qualidade.
 
