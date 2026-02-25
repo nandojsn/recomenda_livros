@@ -32,6 +32,7 @@ Para calcular a semelhança entre os livros, utilizei a técnica **TF-IDF** para
 
 ### 3. Similaridade de Cosseno
 A recomendação é baseada no cálculo matemático do cosseno do ângulo entre os vetores de cada livro:
+
 $$\text{similarity} = \cos(\theta) = \frac{\mathbf{A} \cdot \mathbf{B}}{\|\mathbf{A}\| \|\mathbf{B}\|}$$
 
 ### 4. Filtros de Qualidade (Business Logic)
@@ -39,9 +40,5 @@ O diferencial deste motor é a camada de filtragem pós-processamento:
 - **Nota Mínima:** Apenas livros com `average_rating` >= 4.0.
 - **Volume de Dados:** Apenas livros com mais de 500 avaliações (`ratings_count`).
 
-## 📈 Insights da Análise
-Durante a Análise Exploratória de Dados (EDA), identifiquei que a correlação entre o número de páginas e a nota média é de apenas **0,15**. Isto indica que, para este dataset, o tamanho da obra não é um preditor relevante para a satisfação do leitor.
 
-## 🚀 Como Executar
-1. Instale as dependências:
-   ```bash
+Desenvolvido por um entusiasta de Física e Ciência de Dados. [Meu LinkedIn](https://www.linkedin.com/in/fernando-nunes-b65945b1/)
